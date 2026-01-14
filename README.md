@@ -1,4 +1,4 @@
-# Mini-Projects & Logic Sketches
+# Mini-Projects
 
 - **Purpose:** A lot of my coding projects are quick explorations of a technology, and thus will stay in my folders forever. However, there are a select few that I believe deserve to be immortalised in Github due to their unique ideation, and are kept in this collection of my favourite mini-projects
 
