@@ -4,7 +4,7 @@
 
 **Included Files**
 
-- `fact_checker.py`: The core logic containing the `tkinter` GUI, Wikipedia API orchestration, and the dual-stage AI prompting/parsing system.
+- `main.py`: The core logic containing the `tkinter` GUI, Wikipedia API orchestration, and the dual-stage AI prompting/parsing system.
 
 **Prerequisites**
 
@@ -30,3 +30,4 @@
 - Wikipedia Mode: Enter a claim. The app will scrape the top 3 relevant Wikipedia entries and provide a synthesized truth-score.
 - Manual Mode: Click "Use Manual Input" to paste a specific document or news article you want the AI to verify against your statement.
 - Console Monitoring: The terminal will display the "raw" AI thinking process and individual article processing times for performance tracking.
+
