@@ -6,9 +6,10 @@
 
 ### **The Collection**
 
-- **[Project Name A](./folder-a)**: **[Short Hook]** — .
-- **[Project Name B](./folder-b)**: **[Short Hook]** — .
-- **[Project Name C](./folder-c)**: **[Short Hook]** — .
+- **[Mandelbrot Text Renderer](./mandelbrot_text)**: — Interactive Python CLI-only Mandelbrot Set display
+- **[Pi to Music](./pi_music)**: A sonic mnemonic (sorry for the rhyme) for memorising digits of Pi by mapping them to a pentatonic scale melody
+- **[CLI Wordle](./terminal_wordle)**: A CLI-based Wordle game with an interactive UI and difficulty selection and dictionary definition features
+- **[Sneaky Prank](./stealth_jumpscare)**: A jumpscare prank on a random interval, using a particularly bad drawing by my friend
 
 ---
 
@@ -25,3 +26,4 @@ cd project-folder-name
 3. Install any dependencies and run the program!
 
 -- End of README --
+
