@@ -7,8 +7,8 @@
 ### **The Collection**
 
 - **[Project Name A](./folder-a)**: **[Short Hook]** — .
-- **[Project Name B](./folder-b)**: **[Short Hook]** — (e.g., A CLI tool that converts Spotify playlists into markdown).
-- **[Project Name C](./folder-c)**: **[Short Hook]** — (e.g., A minimalist pomodoro timer for the terminal).
+- **[Project Name B](./folder-b)**: **[Short Hook]** — .
+- **[Project Name C](./folder-c)**: **[Short Hook]** — .
 
 ---
 
