@@ -1,29 +1,31 @@
-# Mini-Projects
+# Electron Space Invaders Demo
 
-- **Purpose:** A lot of my coding projects are quick explorations of a technology, and thus will stay in my computer's SSD forever. However, there are a select few that I believe deserve to be immortalised in Github due to their unique ideation, and are kept in this collection of my favourite mini-projects
+## Purpose  
+A demo built in Electron for teaching my classmatesJS, showing possibilities with more advanced coding. Features a charge-shot system (quick/charged/overload), sprite animations (7 states), sprite preprocessing (rotation/trimming/scaling), fullscreen toggle (F/ESC), and particle effects.
 
----
+## How It Works  
+- **Electron desktop app** with IPC for fullscreen control (F=enter, ESC=exit)  
+- **Sprite pipeline**: Loads PNG sprite sheets → trims transparent pixels → rotates 90° → scales responsively  
+- **Responsive canvas**: Scales to container size, maintains 30FPS cap  
+- **Audio**: 3 explosion types (quick/charged/overload) with preload  
 
-### **The Collection**
+## Included Files  
+- `main.js`: Electron window + fullscreen IPC handlers  
+- `game.js`: Game loop, player physics, projectile/explosion systems, sprite processing  
+- `index.html`: Start screen → game canvas toggle  
+- `Sprites/`: Player animations (idle/turn/shoot/charge/damage/death), projectiles, effects  
+- `Sounds/`: Explosion SFX  
 
-- **[Mandelbrot Text Renderer](./mandelbrot_text)**: — Interactive Python CLI-only Mandelbrot Set display
-- **[Pi to Music](./pi_music)**: A sonic mnemonic (sorry for the rhyme) for memorising digits of Pi by mapping them to a pentatonic scale melody
-- **[CLI Wordle](./terminal_wordle)**: A CLI-based Wordle game with an interactive UI and difficulty selection and dictionary definition features
-- **[Sneaky Prank](./stealth_jumpscare)**: A jumpscare prank on a random interval, using a particularly bad drawing by my friend
+## Prerequisites  
+```bash
+npm init -y
+npm install electron --save-dev
+```
 
----
-
-**Quick Setup**
-
-1. Clone this repository:
-```powershell
-git clone github.com
-
-2. Navigate to a specific project folder:
-```powershell
-cd project-folder-name
-
-3. Install any dependencies and run the program!
-
--- End of README --
-
+## Usage
+```
+npm start  # Launches Electron app
+# F = Fullscreen, ESC = Exit fullscreen
+# A/D = Move, Space = Charge shot (hold longer = more power!)
+# L = Damage animation, K = Death animation (debug)
+```
