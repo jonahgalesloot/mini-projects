@@ -9,7 +9,7 @@
 - **[Mandelbrot Text Renderer](./mandelbrot_text)**: — Interactive Python CLI-only Mandelbrot Set display
 - **[Pi to Music](./pi_music)**: A sonic mnemonic (sorry for the rhyme) for memorising digits of Pi by mapping them to a pentatonic scale melody
 - **[CLI Wordle](./terminal_wordle)**: A CLI-based Wordle game with an interactive UI and difficulty selection and dictionary definition features
-- **[Space Ivaders](./space_invaders)**: An ElectronJS-based Space Invaders prototype made for a demo of JS when teaching classmates
+- **[Space Invaders](./space_invaders)**: An ElectronJS-based Space Invaders prototype made for a demo of JS when teaching classmates
 - **[Sneaky Prank](./stealth_jumpscare)**: A jumpscare prank on a random interval, using a particularly bad drawing by my friend
 
 ---
@@ -27,3 +27,4 @@ cd project-folder-name
 3. Install any dependencies and run the program!
 
 -- End of README --
+
