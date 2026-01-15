@@ -76,38 +76,7 @@ while True:
         except UnicodeDecodeError:
             continue
 
-    answer = "plane"#wordlist[cursor - 1][functions.random.randint(0, len(wordlist[cursor - 1]) - 1)]
-    """
-    The answer has been set to a placeholder of plane, the guesses and their expected outputs are:
-    CRANE
-
-    C: <gray>Gray</gray> (not in the word)
-    R: <gray>Gray</gray> (not in the word)
-    A: <yellow>Yellow</yellow> (in the word, wrong position)
-    N: <green>Green</green> (correct letter, correct position)
-    E: <green>Green</green> (correct letter, correct position)
-    BLANK
-
-    B: <gray>Gray</gray> (not in the word)
-    L: <yellow>Yellow</yellow> (in the word, wrong position)
-    A: <yellow>Yellow</yellow> (in the word, wrong position)
-    N: <green>Green</green> (correct letter, correct position)
-    K: <gray>Gray</gray> (not in the word)
-    PLATE
-
-    P: <green>Green</green> (correct letter, correct position)
-    L: <green>Green</green> (correct letter, correct position)
-    A: <yellow>Yellow</yellow> (in the word, wrong position)
-    T: <gray>Gray</gray> (not in the word)
-    E: <green>Green</green> (correct letter, correct position)
-    PLANE (Correct Guess!)
-
-    P: <green>Green</green> (correct letter, correct position)
-    L: <green>Green</green> (correct letter, correct position)
-    A: <green>Green</green> (correct letter, correct position)
-    N: <green>Green</green> (correct letter, correct position)
-    E: <green>Green</green> (correct letter, correct position)
-    """
+    answer = #wordlist[cursor - 1][functions.random.randint(0, len(wordlist[cursor - 1]) - 1)]
     guesses = {
         '1': ['.', '.', '.', '.', '.'],
         '2': ['.', '.', '.', '.', '.'],
@@ -252,4 +221,5 @@ while True:
         functions.get_single_keypress()
 
 print("Thanks for Playing ;)")
+
 functions.exit_program()
